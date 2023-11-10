@@ -1,0 +1,10 @@
+Step to run this
++1. Clone this repo
++2. Run `npm install`
++3. Run `ionic capacitor add android && ionic capacitor add ios`
++4. Run `npm install axios`
++5. Run `ionic serve --external`
+
+If you're using android emulator
+- Run `ionic capacitor run android -l --external` <--  for run on emulator andorid
+- Run `ionic capacitor run android` <-- for run on emulator
