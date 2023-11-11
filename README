@@ -1,10 +1,21 @@
+PREREQUISITES:
++1. Install Android Emulator
++2. Install ios Emulator [for macos]
++3. Using VS Code latest version
++4. Install Extentions Name: Android iOS Emulator: https://marketplace.visualstudio.com/items?itemName=DiemasMichiels.emulate
++5. For running emulator: cmd+shift+P
+
 Step to run this
 +1. Clone this repo
-+2. Run `npm install`
-+3. Run `ionic capacitor add android && ionic capacitor add ios`
-+4. Run `npm install axios`
-+5. Run `ionic serve --external`
++2. npm install -g @capacitor/cli
++3. Run `npm install`
++4. Run `ionic capacitor add android && ionic capacitor add ios`
++5. Run `npm install axios`
++6. Run `ionic serve --external`
 
-If you're using android emulator
+If you're using android emulator:
 - Run `ionic capacitor run android -l --external` <--  for run on emulator andorid
 - Run `ionic capacitor run android` <-- for run on emulator
+
+If you're using ios emulator:
+- Run `ionic capacitor run ios` <--  for run on emulator ios
